@@ -1,0 +1,72 @@
+.importante{
+    color: rgb(250, 53, 83);
+}
+
+#pie{
+    background-color: maroon;
+    color: azure;
+}
+
+.caja{
+    border-radius: 10px;
+    padding: 20px;
+    border: 4px solid;
+    margin: 20px 0px;
+   /* border-top: 10px solid;
+    border-right: 40px solid;
+    border-bottom: 2px solid;
+    border-left: 10px solid;*/
+    box-sizing: border-box;
+/*tipografia*/
+    font-family: Arial;
+    font-weight: lighter;
+    font-size:20px;
+    font-style: italic;
+/*alinear texto*/
+    text-align: center;
+}
+
+.error{
+    background-color: rgb(232, 61, 61);
+    color: rgb(117, 17, 17);
+    border-color:  rgb(252, 3, 3);
+}
+
+.exito{
+    background-color: rgb(18, 236, 11);
+    color: rgb(4, 73, 8);
+    border-color:  rgb(74, 252, 3);
+
+}
+
+.advertencia{
+    background-color: rgb(229, 255, 0);
+    color: rgb(70, 42, 2);
+    border-color:  rgb(252, 206, 3);
+}
+
+/*
+selector de atributo [atributo] 
+ [type="tel"] {
+    border-color: red;
+ }
+
+ [disabled]{
+    border-color: red;
+ }
+
+
+ /*Hijo directo > 
+
+ .caja > h3 {
+    color: rgb(36, 4, 87);
+ }
+
+
+ /*Selector adyascente + 
+ 
+ h3 + p {
+    color: rgb(141, 5, 175);
+ } */
+
+
